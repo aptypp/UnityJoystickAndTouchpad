@@ -140,7 +140,7 @@ GameObject:
   - component: {fileID: 1859049719505236142}
   - component: {fileID: 1859049719505236128}
   - component: {fileID: 1859049719505236129}
-  - component: {fileID: 5324719167686580662}
+  - component: {fileID: 6884737593085286409}
   m_Layer: 5
   m_Name: back_image
   m_TagString: Untagged
@@ -206,7 +206,7 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!114 &5324719167686580662
+--- !u!114 &6884737593085286409
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -215,7 +215,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1859049719505236143}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: efd73fdcb51745da9de8e666a1f594f1, type: 3}
+  m_Script: {fileID: 11500000, guid: ef6f387d0be34c9ab07ad05fd813b0d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _joystickView: {fileID: 8857727160030638332}
@@ -293,10 +293,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 1920, y: 1080}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
