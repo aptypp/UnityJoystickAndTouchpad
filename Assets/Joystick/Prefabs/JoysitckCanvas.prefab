@@ -85,6 +85,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1859049718783858681}
+  - component: {fileID: 8857727160030638332}
   m_Layer: 5
   m_Name: Joystick
   m_TagString: Untagged
@@ -114,6 +115,20 @@ RectTransform:
   m_AnchoredPosition: {x: 300, y: 300}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &8857727160030638332
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1859049718783858662}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b35f3ab9d4047ac80a2f4d8e8808195, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _frontImage: {fileID: 1859049718486592322}
+  _backImage: {fileID: 1859049719505236129}
 --- !u!1 &1859049719505236143
 GameObject:
   m_ObjectHideFlags: 0
@@ -125,6 +140,7 @@ GameObject:
   - component: {fileID: 1859049719505236142}
   - component: {fileID: 1859049719505236128}
   - component: {fileID: 1859049719505236129}
+  - component: {fileID: 5324719167686580662}
   m_Layer: 5
   m_Name: back_image
   m_TagString: Untagged
@@ -190,6 +206,20 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &5324719167686580662
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1859049719505236143}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efd73fdcb51745da9de8e666a1f594f1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _joystickView: {fileID: 8857727160030638332}
+  _radius: 100
 --- !u!1 &1859049720282426077
 GameObject:
   m_ObjectHideFlags: 0
